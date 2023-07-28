@@ -10,6 +10,7 @@ export const makePottery = (shape, weight, height) => {
   };
   pieceOfPottery.push(pottery);
   id++;
+  return pottery;
 };
 //*Function above creates object, and adds id variable that "counts"
 // * each time new object is made
