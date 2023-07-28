@@ -2,7 +2,7 @@ let forSale = [];
 
 export const toSellOrNotToSell = (pottery) => {
   if (pottery.cracked === true) {
-    pottery.price = 0;
+    //pottery.price = 0;
     return pottery;
   } else if (pottery.weight >= 6) {
     pottery.price = 40;
